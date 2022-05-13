@@ -1,91 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
-.body{
-    
-        font-family: 'Poppins';
-      
-    box-sizing: border-box;
-    display:block
+.body {
+  font-family: "Poppins";
+
+  box-sizing: border-box;
+  display: block;
 }
-
 
 header > div {
-    padding: 0 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
-  }
-  
-  nav {
-    width: 600px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .blackHeart {
-    width: 20px;
-    margin-right: 1rem;
-  }
-  
-
-
-
-#first-section  {
-    height: 600px;
-    padding:0 25px;
-    display:inline-block;
-    
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-    image-rendering: auto;
-    box-sizing: border-box;
-
-       background-color:rgba(255,204,53,.4) ;
-      
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
 }
-#class{
-    width: 60px;
-    display: inline;
-    align-items: center;
-    
+
+nav {
+  width: 600px;
 }
-hexagon{
-    width: 60px;
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+#first-section {
+  height: 600px;
+  padding: 0 25px;
+  display: inline-block;
+
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  image-rendering: auto;
+  box-sizing: border-box;
+
+  background-color: rgba(255, 204, 53, 0.4);
+  font-weight: 300;
+}
+#class {
+  width: 60px;
+  display: inline;
+  align-items: center;
+}
+
 
 #second-section {
-    height: 600px;
-    padding:0 25px;
-    display:inline-flex;
-    justify-content: center;
-    align-items: stretch;
-    align-content: center;
-    flex-direction: row;
+  height: 600px;
+  padding: 0 25px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  flex-direction: row;
 }
 
-
-
-  #button{
-    
-        background-color: gray;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-      
-  }
+#button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
